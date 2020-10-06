@@ -10,5 +10,5 @@ complete <- function(directory, id = 1:332) {
     
     }
   
-  as.data.frame(nobs, id)
+  data.frame(id, nobs)
 }
